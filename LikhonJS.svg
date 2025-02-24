@@ -1,0 +1,42 @@
+<function_calls>
+<invoke name="artifacts">
+<parameter name="id">likhonjs-logo</parameter>
+<parameter name="command">rewrite</parameter>
+<parameter name="content">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#121212" rx="0" ry="0"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradientL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="50%" stop-color="#03A9F4" />
+      <stop offset="100%" stop-color="#3F51B5" />
+    </linearGradient>
+    
+    <linearGradient id="gradientJ" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5252" />
+      <stop offset="50%" stop-color="#FF9800" />
+      <stop offset="100%" stop-color="#FFC107" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Logo Shape - Stylized L and J -->
+  <path d="M120 100 C110 100, 100 110, 100 120 L100 260 C100 280, 120 300, 140 300 L190 300 C200 300, 210 290, 210 280 L210 250 C210 240, 200 230, 190 230 L160 230 C150 230, 140 220, 140 210 L140 130 C140 120, 150 110, 160 110 L200 110 L200 100 Z" 
+        fill="url(#gradientL)" 
+        stroke="#121212" 
+        stroke-width="4"/>
+  
+  <!-- Stylized J Element -->
+  <path d="M220 100 L300 100 C310 100, 320 110, 320 120 L320 210 C320 220, 310 230, 300 230 L270 230 C260 230, 250 220, 250 210 L250 180 L240 180 C230 180, 220 190, 220 200 L220 260 C220 280, 240 300, 260 300 L290 300 L290 290 L260 290 C245 290, 230 275, 230 260 L230 200 C230 185, 245 170, 260 170 L260 210 C260 215, 265 220, 270 220 L300 220 C305 220, 310 215, 310 210 L310 120 C310 115, 305 110, 300 110 L220 110 Z" 
+        fill="url(#gradientJ)" 
+        stroke="#121212" 
+        stroke-width="4"/>
+  
+  <!-- Circle Elements -->
+  <circle cx="125" cy="125" r="8" fill="#121212"/>
+  <circle cx="280" cy="125" r="8" fill="#121212"/>
+</svg>
+</parameter>
+</invoke>
