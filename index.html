@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inSheikh - Advanced Windows Security Tool</title>
+    <meta name="description" content="Advanced Windows security configuration tool with WPF GUI for system hardening and protection">
+    <meta name="keywords" content="windows security, powershell, system hardening, security tool">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "inSheikh",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Windows",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "softwareVersion": "1.0.0",
+      "programmingLanguage": "PowerShell",
+      "description": "Advanced Windows security configuration tool with WPF GUI for system hardening and protection"
+    }
+    </script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold mb-4">inSheikh</h1>
+            <p class="text-xl">Advanced Windows Security Configuration Tool</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-4">Key Features</h2>
+                <ul class="space-y-2">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        Windows Firewall Management
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        BitLocker Drive Encryption
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        System Hardening
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-4">Quick Start</h2>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <code class="text-sm">
+                        git clone https://github.com/likhonsheikh54/inSheikh.git<br>
+                        cd inSheikh<br>
+                        .\inSheikh.ps1
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Documentation</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="prose max-w-none">
+                    <p>inSheikh is a comprehensive Windows security tool that helps administrators and users configure security settings through an intuitive GUI interface.</p>
+                    <h3>System Requirements</h3>
+                    <ul>
+                        <li>Windows 10/11</li>
+                        <li>PowerShell 5.1 or later</li>
+                        <li>Administrator privileges</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p>&copy; 2024 inSheikh. MIT License.</p>
+                </div>
+                <div>
+                    <a href="https://github.com/likhonsheikh54/inSheikh" class="hover:text-blue-400">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
